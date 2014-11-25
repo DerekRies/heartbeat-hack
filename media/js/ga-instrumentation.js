@@ -38,7 +38,6 @@
     for (var i = 0; i < ga_links.length; i++) {
       var url = ga_links[i].href;
       ga_links[i].onclick = doSomething(ga_links[i].dataset.gaAction, url);
-      console.log(ga_links[i].dataset.gaAction);
     };
   }
 
